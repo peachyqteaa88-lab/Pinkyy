@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PinkyStudy 💗 - Belajar lebih rapi, tugas lebih mudah</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- TOAST CONTAINER -->
+<div id="toast-container"></div>
+
+<!-- MODAL CONTAINER -->
+<div id="modal-container"></div>
+
+<!-- TOP NAVBAR (Desktop) -->
+<header class="topbar" id="topbar">
+  <div class="topbar-inner">
+    <a href="#/" class="brand" data-link>
+      <span class="brand-icon">💗</span>
+      <span class="brand-name">PinkyStudy</span>
+    </a>
+    <nav class="topnav" id="topnav">
+      <a href="#/" data-link class="nav-item" data-page="home">🏠 Beranda</a>
+      <a href="#/jualan" data-link class="nav-item" data-page="jualan">🛍️ Jualan</a>
+      <a href="#/keranjang" data-link class="nav-item" data-page="keranjang">🛒 Keranjang <span class="badge" id="cartBadgeTop">0</span></a>
+      <a href="#/pesanan" data-link class="nav-item" data-page="pesanan">📦 Pesanan</a>
+      <a href="#/profil" data-link class="nav-item" data-page="profil">👤 Profil</a>
+      <a href="#/bantuan" data-link class="nav-item" data-page="bantuan">💬 Bantuan</a>
+      <a href="#/admin" data-link class="nav-item admin-link" data-page="admin" id="adminNav">🛡️ Admin</a>
+    </nav>
+  </div>
+</header>
+
+<!-- MAIN CONTENT -->
+<main id="app"></main>
+
+<!-- FOOTER -->
+<footer class="footer" id="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <h3>PinkyStudy 💗</h3>
+      <p>Teman belajar untuk kebutuhan tugas dan perlengkapan sekolah.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#/" data-link>Beranda</a>
+      <a href="#/jualan" data-link>Jualan</a>
+      <a href="#/pesanan" data-link>Pesanan</a>
+      <a href="#/profil" data-link>Profil</a>
+      <a href="#/bantuan" data-link>Bantuan</a>
+      <a href="#" id="footerWA">WhatsApp Admin</a>
+    </div>
+  </div>
+  <div class="footer-copy">© 2025 PinkyStudy. Dibuat dengan 💗 untuk pelajar Indonesia.</div>
+</footer>
+
+<!-- BOTTOM NAV (Mobile) -->
+<nav class="bottomnav" id="bottomnav">
+  <a href="#/" data-link class="bnav-item" data-page="home">
+    <span class="bnav-icon">🏠</span><span class="bnav-label">Beranda</span>
+  </a>
+  <a href="#/jualan" data-link class="bnav-item" data-page="jualan">
+    <span class="bnav-icon">🛍️</span><span class="bnav-label">Jualan</span>
+  </a>
+  <a href="#/keranjang" data-link class="bnav-item" data-page="keranjang">
+    <span class="bnav-icon">🛒<span class="badge" id="cartBadgeMobile">0</span></span><span class="bnav-label">Keranjang</span>
+  </a>
+  <a href="#/pesanan" data-link class="bnav-item" data-page="pesanan">
+    <span class="bnav-icon">📦</span><span class="bnav-label">Pesanan</span>
+  </a>
+  <a href="#/profil" data-link class="bnav-item" data-page="profil">
+    <span class="bnav-icon">👤</span><span class="bnav-label">Profil</span>
+  </a>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>
